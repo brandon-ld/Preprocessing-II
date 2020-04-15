@@ -1,3 +1,8 @@
+.button {
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
 * {
   box-sizing: border-box;
 }
@@ -97,11 +102,36 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.header {
+  display: flex;
+  align-items: baseline;
+  padding-top: 1rem;
+}
 .banner {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100rem;
-  padding-left: 30rem;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 106.4rem;
+  padding-left: 26.4rem;
+}
+.banner .bannerBottomTitle {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 3.2rem;
+  padding-top: 10px;
+}
+.bannerBottomText {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.btn {
+  border-radius: 1.5rem;
+  padding: 1.2rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  font-size: 2rem;
 }
